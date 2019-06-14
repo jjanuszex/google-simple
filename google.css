@@ -1,0 +1,99 @@
+html{
+  margin: 0px;
+  font-family: arial, sans-serif;
+}
+
+body{
+  font-style: arial;
+  margin: 0;
+  padding: 0;
+}
+.logo{
+text-align: center;
+padding-top: 200px;
+}
+nav{
+  display: flex;
+  font-size: 13px;
+  color: black;
+  margin-top: 10px;
+}
+ul{
+  list-style: none;
+}
+#right{
+  justify-content: flex-end;
+  margin-left: auto;
+  text-align: right;
+}
+li{
+  display: inline;
+  padding: 10px;
+  text-align: -webkit-match-parent;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+}
+#submit{
+  width: 80px;
+  height: 30px;
+  border-radius: 8px;
+  background-color: #66ccff;
+  color: white;
+  font-weight: bold;
+}
+.search{
+  display: flex;
+  justify-content: center;
+  padding-top: 24px;
+}
+form{
+  display: block;
+}
+#mietek{
+  width: 570px;
+  height: 42px;
+  border-radius: 30px;
+  border: 1px solid  rgba(128, 128, 128, 0.2);
+}
+.batons{
+  display: flex;
+  justify-content: center;
+}
+button{
+  background-color: #F2F2F2;
+  margin-top: 30px;
+  margin-right: 10px;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #606060;
+}
+footer{
+  display: flex;
+  font-size: 13px;
+  background-color: #f2f2f2;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+#fright{
+  justify-content: flex-end;
+  margin-left: auto;
+  text-align: right;
+  margin-right: 10px;
+}
+#fleft{
+  justify-content: flex-end;
+  margin-right: auto;
+  text-align: left;
+  margin-left: 10px;
+}
